@@ -41,7 +41,7 @@ jobs:
         env:
           # Your secrets are available as environment variables
           # Add more secrets in Settings > Secrets > Actions
-                    OWM_API_KEY: ${{ secrets.OWM_API_KEY }}
+          OWM_API_KEY: ${{ secrets.OWM_API_KEY }}
           ACCOUNT_SID: ${{ secrets.ACCOUNT_SID }}
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
           MY_WHATS_UP: ${{ secrets.MY_WHATS_UP }}
